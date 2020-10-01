@@ -105,7 +105,36 @@ text-align: center;
     background-color: white;
     color: black;
 }
-
+/* ABOVE FOOTER AREA */
+#abovefooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    background-color: #000;
+    color: white;
+    border-bottom: 5px solid  #be3144;
+}
+#abovefooter h1{
+    font-size: 3.5rem;
+}
+#abovefooter h4{
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+#contacts{
+    display: flex;
+}
+#contacts div{
+    font-size: 35px;
+    padding: 15px;
+    transition: transform 0.6s;
+}
+#contacts div:hover{
+    transform: translate(0px, -10px);
+}
 /* FOOT STYLING */
 #foot{
     background-color: #000;
