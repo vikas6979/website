@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* NAVBAR STYLING */
+#navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #be3144;
+    position: fixed;
+    width: 100vw;
+    z-index: 5;
+}
+#navbar a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 27px;
+}
+#navbar a:hover{
+    background-color: #45567d;
+}
+/* HEADER STYLING */
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+    color: white;
+    padding: 130px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#head h1{
+font-size: 40px;
+margin-top: 71px;
+text-align: center;
+}
+#head h3{
+    color: #be3144;
+    font-style: italic;
+    margin: 12px;
+    text-align: center;
+}
+/* BODY STYLING */
+#content{
+    background-color:  #45567d;
+    color: white;
+}
+#cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+#cont1 h1{
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+#cont2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 45px;
+    Padding-bottom: 150PX;
+    grid-gap: 60px;
+    justify-content: center;
+}
+#cont2 img{
+    height: 100px;
+    width: auto;
+}
+.projects{
+    text-align: center;
+    padding: 15px;
+    line-height: 35px;
+    box-shadow: 7px 5px 18px -7px #000;
+    transition: transform 0.6s;
+}
+.projects:hover{
+    transform: translate(0px , -15px);
+}
+.projects p{
+    display: block;
+    padding: 12px;
+}
+#cont2 div:nth-child(1){
+    background-color: red;
+}
+#cont2 div:nth-child(2){
+    background-color: yellow;
+    color: black;
+}
+#cont2 div:nth-child(3){
+    background-color: green;
+}
+#cont2 div:nth-child(4){
+    background-color: blue;
+}
+#cont2 div:nth-child(5){
+    background-color: purple;
+}
+#cont2 div:nth-child(6){
+    background-color: white;
+    color: black;
+}
+
+/* FOOT STYLING */
+#foot{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-size: x-large;
+    color: white;
+}
+#foot p{
+    margin: 15px;
+}
